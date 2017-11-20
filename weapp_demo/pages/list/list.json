@@ -1,0 +1,13 @@
+{
+    "pages": [
+      "pages/index/index",
+      "pages/logs/logs",
+      "pages/list/list"
+    ],
+    "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#ff0",
+      "navigationBarTitleText": "邂逅相遇",
+      "navigationBarTextStyle": "black"
+    }
+}

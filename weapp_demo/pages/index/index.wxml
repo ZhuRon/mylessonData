@@ -1,0 +1,32 @@
+<view class="section">
+  <!-- 数据绑定 mvvm
+  model data 数据
+  view 界面
+  dom 过时
+  vm 视图模型 -->
+  <view><text>{{motto}}</text></view>
+  <view 
+  class="section_title">
+    <text>
+      flex-diretion:row
+    </text>
+</view>
+  <view class="flex-wrap flex-row">
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    <view class="flex-item bc_blue">3</view>
+  </view>
+</view>
+<view class="section">
+    <view 
+    class="section_title">
+      <text>
+        flex-diretion:cloum
+      </text>
+  </view>
+  <view class="flex-box flex-row">
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    <view class="flex-item bc_blue">3</view>
+  </view>
+</view>
