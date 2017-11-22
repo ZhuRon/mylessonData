@@ -5,7 +5,7 @@ const app = getApp()
 Page({
   data: {
     currentTab:0,
-    activeIndex:0
+
     // motto: 'Hello World',
     // userInfo: {},
     // hasUserInfo: false,
@@ -57,14 +57,15 @@ clickTab: function (e) {
   } else {
     that.setData({
       currentTab: e.target.dataset.current,
-      activeIndex: e.target.dataset.current,
+      
     })
   }
 },
 swiperTab: function (e) {
-  this.setData({
+  var that = this;
+  that.setData({
     currentTab: e.detail.current,
-    activeIndex: e.detail.current,
+
   });
 },
   getUserInfo: function(e) {
