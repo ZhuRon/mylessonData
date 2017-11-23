@@ -1,0 +1,20 @@
+<!--pages/scroll/scroll.wxml-->
+<!-- 实现铺满整个屏幕 -->
+<view wx:if="{{refreshing}}"
+class="refresh-block">
+    <image 
+    animation="{{refreshAnimation}}"
+    src="../../images/images.png"/>
+</view>
+<scroll-view scroll-y="true"
+bindscrolltolower="lower"
+bindscrolltoupper="upper"
+style="height:{{windowHeight}}px">
+<!-- 指令 directive
+key 主要是为了性能的优化 【1,2,3,4，5】 变成了【0,2,3,4,5】
+如果不用key就会全部刷新 会导致性能变差 -->
+<block wx:for="{{movies}}" wx:for-item="movie" wx:key="index">
+
+<view class="item-style">{{movie.title}}</view>
+</block>
+</scroll-view>
