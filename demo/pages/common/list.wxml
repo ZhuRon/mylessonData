@@ -1,0 +1,19 @@
+<!--pages/common/list.wxml-->
+<template name="job_list">
+<view class="weui-panel__bd">
+    <navigator url="../jobDetail/jobDetail" class="weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb thumb" src="../../images/logo.png" mode="aspectFit"></image>
+        </view> 
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title item-title">{{position_work}}</view>
+            <view class="weui-media-box__desc item-school">{{schoolname}}</view>
+            <view class="weui-media-box__desc item-request">{{city_name}}|{{education}}|{{working_years}}</view>
+        </view>
+        <view class="weui-media-box__bd item-right">
+            <view class="weui-media-box__title item-salary">{{salary}}</view>
+            <view class="weui-media-box__desc item-date">11月26日</view>
+        </view>
+    </navigator>
+</view>
+</template>
