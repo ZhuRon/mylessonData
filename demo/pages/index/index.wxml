@@ -26,10 +26,16 @@
                 </view>
             </swiper-item>
             <swiper-item>
-                <view class="swiper-item weui-tab__content">幼儿园</view>
+                <view class="swiper-item weui-tab__content">                        
+                    <block wx:for="{{nursery_list}}" wx:key="{{index}}">
+                        <template is="job_list" data="{{...item}}"></template>
+                    </block></view>
             </swiper-item>
             <swiper-item>
-                <view class="swiper-item weui-tab__content">早教</view>
+                <view class="swiper-item weui-tab__content">                        
+                    <block wx:for="{{earlyTeach_list}}" wx:key="{{index}}">
+                        <template is="job_list" data="{{...item}}"></template>
+                    </block></view>
             </swiper-item>
         </swiper>
     </view>
