@@ -1,1 +1,190 @@
-/* pages/suggest/suggest.wxss */
+/* .page__hd{
+    width: 100%;
+    height: 356rpx;
+    position: relative;
+  }
+  .bg{
+    width: 100%;
+    height: 356rpx;
+    z-index: 1;
+  }
+  .bg image {
+    width: 100%;
+    height: 356rpx;
+    z-index: 1;
+  }
+  .header {
+      display: flex;
+      height: 85rpx;
+      width: 90%;
+      flex-direction: row ;
+      justify-content: space-between;
+      float: left;
+      position: absolute;
+      left: 40rpx;
+      top: 60rpx;
+  }
+  .page__hd_yuan{
+    display: flex;
+    width: 70rpx;
+    height: 70rpx;
+    border-radius: 60rpx;
+    background: rgba(111,111,111,.4);
+  }
+  .page__hd_bd{
+    width: 400rpx;
+    height: 70rpx;
+    background: rgba(111,111,111,.4);
+    border-radius: 40rpx;
+    font-size: 40rpx;
+    color: #ffffff;
+    text-align: center;
+  
+  }
+  .page__hd_ft image{
+    width: 60rpx;
+    height: 60rpx;
+  }
+  .page__bd {
+    width:100%;
+    height:350rpx;
+    background: #ffffff;
+  }
+  .page__bd .items{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  .page__bd .kit_items__item{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50rpx;
+    flex: 1;
+    margin-bottom: 20rpx;
+    margin-top: 20rpx;
+  }
+  .page__bd .kit_items__item.item-one{
+    padding-left: 20rpx;
+  }
+  .page__bd image {
+    width: 120rpx;
+    height: 100rpx;
+  }
+  .page__bd .round_btn {
+    font-size:25rpx;
+    color: #706f6f;
+    margin-left: 20rpx;
+  }
+   
+   .item-title{
+    font-size: 32rpx;
+    color: #333333;
+    margin-bottom: 12rpx; 
+    height: 32rpx;
+    line-height: 32rpx;
+  }
+  .item-school{
+    font-size: 28rpx;
+    color: #666;
+    width: 252rpx;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-line-clamp:1;
+    margin-bottom: 14rpx; 
+  }
+  .item-request{
+    font-size: 26rpx;
+    color: #999;
+    height:26rpx;
+    line-height:26rpx
+  }
+  .weui-media-box__bd_in-appmsg{
+    height: 112rpx;
+    box-sizing: border-box;
+  }
+  .item-date{
+    font-size: 24rpx;
+    color: #999;
+    height:24rpx;
+    line-height:24rpx;
+  }
+  .item-salary{
+    font-size: 28rpx;
+    color: #fd603a;
+    margin-bottom: 48rpx;
+    height:28rpx;
+    line-height:28rpx;
+    margin-top:16rpx;
+  }
+  .item-right{
+    text-align: right;
+    min-width:150rpx;
+    height: 112rpx;
+    line-height: 60rpx;
+  }
+  .thumb{
+    width: 120rpx;
+    max-height: auto;   
+
+    border-radius: 4rpx;
+    border:1px solid #f2f2f2;
+  }
+  .item-deliver{
+    font-size: 28rpx;
+    color: #F788AB;
+    line-height: 28rpx;
+    margin-bottom: 50rpx;
+  }
+  .item-dist{
+    font-size: 26rpx;
+    margin-top: 70rpx;
+    height: 26rpx;
+    color: #999;
+    line-height:26rpx;
+  }
+  
+  .school-title{
+    font-size: 36rpx;
+    color: #333333;
+    height: 36rpx;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 394rpx;
+    white-space: nowrap;
+    margin-bottom: 24rpx;
+    margin-top: 10rpx;
+    line-height:36rpx;
+  }
+  .bottom-line{
+    padding: 0;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+  }
+  .border-bottom{
+    width: 690rpx;
+    border-bottom: 1px solid #f2f2f2;
+    margin: 0 auto;
+  }
+  .weui-media-box_appmsg{
+    padding: 28rpx 30rpx 30rpx 30rpx;
+  }
+  .weui-media-box__hd_in-appmsg{
+    width: 120rpx;
+    height: 120rpx;
+    margin-right: 24rpx;
+  }
+  */
+  .suggest{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 356rpx;
+    background-color:snow ;
+  }
+  .titile_signe{
+    
+  }
