@@ -184,5 +184,21 @@
     height: 356rpx;
   }
   .titile_signe{
-    
+    height: 5vh;
+    background-color: purple;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
   }
+  .title_title{
+    margin: 20rpx;
+  }
+.title_title_main{
+  font-size: 60rpx;
+  font-weight: bold;
+}
+.title_title_sub{
+  font-size: 20rpx;
+  color: #bebebe;
+
+}

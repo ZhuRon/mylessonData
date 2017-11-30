@@ -1,22 +1,22 @@
-<div class="suggest">
-    <div class="titile_signe">五角星</div>
-    <div class="title_title">
-        <div class="title_title_main">指南</div>
-        <div class="title_title_sub">新生活方式的倡导者，带你畅享品质吃喝玩乐</div>
-    </div>
-    <div class="title_picture">
-          <!-- <image class="weui-media-box__thumb thumb" src="../../images/.png"> -->
+<view class="suggest">
+    <view class="titile_signe">五角星</view>
+    <view class="title_title">
+         <view class="title_title_main">指南</view>
+        <view class="title_title_sub">新生活方式的倡导者，带你畅享品质吃喝玩乐</view>
+    </view>
+    <view class="title_picture"> 
+            <!-- <image class="weui-media-box__thumb thumb" src="#">  -->
             这是图片
-    </div>
-    <div class="title">推荐文章</div>
-    <div class="span">
+    </view> 
+  <!--   <view class="title">推荐文章</view>
+    <view class="span">
             <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
-                  1  <!-- <image class="weui-media-box__thumb thumb" src="../../images/logo.png" mode="aspectFit"></image> -->
+                  1 <image class="weui-media-box__thumb thumb" src="../../images/logo.png" mode="aspectFit"></image> 
                 </view> 
                 <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
                     <view class="weui-media-box__title item-title">{{position_work}}</view>
                     <view class="weui-media-box__desc item-school">{{schoolname}}</view>
                 </view>
 
-    </div>
-</div>
+    </view>-->
+</view>

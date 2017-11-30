@@ -1,9 +1,10 @@
 {
-  "pages": [
+  "pages": ["pages/storage_pre/storage_pre",
     "pages/scroll/scroll",
     "pages/index/index",
-    "pages/logs/logs"
-   
+    "pages/logs/logs",
+    
+    "pages/storage/storage"
   ],
   "window": {
     "backgroundTextStyle": "light",
