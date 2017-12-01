@@ -8,15 +8,15 @@
             <!-- <image class="weui-media-box__thumb thumb" src="#">  -->
             这是图片
     </view> 
-  <!--   <view class="title">推荐文章</view>
+   <view class="title">推荐文章</view>
     <view class="span">
             <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                   1 <image class="weui-media-box__thumb thumb" src="../../images/logo.png" mode="aspectFit"></image> 
                 </view> 
                 <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
                     <view class="weui-media-box__title item-title">{{position_work}}</view>
-                    <view class="weui-media-box__desc item-school">{{schoolname}}</view>
+                     <view class="weui-media-box__desc item-school">{{schoolname}}</view>
                 </view>
 
-    </view>-->
+    </view>
 </view>
