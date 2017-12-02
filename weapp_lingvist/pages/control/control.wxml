@@ -3,4 +3,21 @@
     <view class="title_hd">累积单词数：1110</view>
     <view class="title_bd">看清单 ></view>
 </view>
+<view class="span_box">
+    <view class="span_box_pic">
+            <image src="../../images/england.png"/>
+        </view>
+    <view class="span_box_hd_Explain">英语</view>
+    <view class="span_box_bd_Explain">您现在是53级中的第12级。 ></view>
+    <view class="box_ft">
+        <view class="span_ft left">
+            <view class="span_ft_title">复习预定</view>
+            <view class="span_ft_Explain">36</view>
+        </view>    
+        <view class="span_ft right">
+            <view class="span_ft_right_title">今日新词</view>
+            <view class="span_ft_right_Explain">0</view>
+        </view>  
+    </view>
+</view>
 </view>

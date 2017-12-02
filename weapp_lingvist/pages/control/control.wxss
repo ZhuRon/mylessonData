@@ -23,3 +23,45 @@
     margin-left: 23rpx;
     color: #0a2636;
 }
+.span_box{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    width: 100%;
+    height: 50vh;
+    margin-top: 150rpx;
+}
+
+.span_box_pic image{
+    border-radius: 50%;
+    width: 270rpx;
+    height: 270rpx;  
+}
+.span_box_pic{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    border: 2rpx solid #bbbbbb;
+    border-radius: 50%;
+    width: 285rpx;
+    height: 285rpx;  
+}
+.span_box_bd_Explain{
+    font-size: 35rpx;
+    color: #d1d7d7;
+}
+.box_ft{
+    margin-top: 60rpx;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    border-top: 1rpx solid #f2f2f2;
+    box-shadow: 0rpx 10rpx 10rpx #c5c5c5;
+}
+.span_ft{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
