@@ -1,0 +1,12 @@
+.center{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.title{
+    width: 100%;
+}
+.word{
+    border: 1rpx solid black;
+
+}

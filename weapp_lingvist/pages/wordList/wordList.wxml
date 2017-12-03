@@ -1,0 +1,9 @@
+
+<navigator url="../control/control" class="center">已学单词</navigator>
+<view class="center">总词汇量：1110（0今天）</view>
+<view class="title word">
+<view class="word_hd">单词</view>
+<view class="word_bd">上次</view>
+<view class="word_ft">已看过</view>
+</view>
+<block >  </block>

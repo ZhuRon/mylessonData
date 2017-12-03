@@ -1,16 +1,41 @@
 {
-  "pages": [
+  "pages": ["pages/wordList/wordList",
     "pages/control/control",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/challenge/challenge",
+    "pages/account/account",
+    "pages/grammar/grammar"
     
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#f7f7f7",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "lingvist",
     "navigationBarTextStyle": "black"
-    
-    
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#F788AB",
+    "backgroundColor": "#efefef",
+    "borderStyle": "#e0e0e0",
+    "list": [
+      {
+        "pagePath": "pages/control/control",
+        "text": "控制台"
+      },
+      {
+        "pagePath": "pages/challenge/challenge",
+        "text": "挑战"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "账户"
+      },
+      {
+        "pagePath": "pages/grammar/grammar",
+        "text": "语法"
+      }
+    ]
   }
 }

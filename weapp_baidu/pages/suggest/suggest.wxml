@@ -5,18 +5,17 @@
         <view class="title_title_sub">新生活方式的倡导者，带你畅享品质吃喝玩乐</view>
     </view>
     <view class="title_picture"> 
-            <!-- <image class="weui-media-box__thumb thumb" src="#">  -->
-            这是图片
+            <image class="weui-media-box__thumb" src="../../images/main.png"> 
     </view> 
-   <view class="title">推荐文章</view>
+   <!-- <view class="title">推荐文章</view>
     <view class="span">
             <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
-                  1 <image class="weui-media-box__thumb thumb" src="../../images/logo.png" mode="aspectFit"></image> 
+                  1 <image class="weui-media-box__thumb thumb" src="../../images/title.png" mode="aspectFit"></image> 
                 </view> 
                 <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
                     <view class="weui-media-box__title item-title">{{position_work}}</view>
                      <view class="weui-media-box__desc item-school">{{schoolname}}</view>
-                </view>
+                </view> -->
 
     </view>
 </view>
