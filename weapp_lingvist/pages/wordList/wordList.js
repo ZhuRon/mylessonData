@@ -6,6 +6,69 @@ Page({
    */
   data: {
   
+    array: [{
+      word:"age",
+      lasttime:"15",
+      times:"1",
+
+      message: 'foo',
+    }, {
+      word:"age",
+      lasttime:"15",
+      times:"1",
+      message: 'bar'
+    },
+    {
+      word:"age",
+      lasttime:"15",
+      times:"1",
+      message: 'bar'
+    },{
+      word:"age",
+      lasttime:"15",
+      times:"1",
+      message: 'bar'
+    },{
+      word:"age",
+      lasttime:"15",
+      times:"1",
+      message: 'bar'
+    },{
+      word:"age",
+      lasttime:"15",
+      times:"1",
+      message: 'bar'
+    },{
+      word:"age",
+      lasttime:"15",
+      times:"1",
+      message: 'bar'
+    },{
+      word:"age",
+      lasttime:"15",
+      times:"1",
+      message: 'bar'
+    },{
+      word:"age",
+      lasttime:"15",
+      times:"1",
+      message: 'bar'
+    },{
+      word:"age",
+      lasttime:"15",
+      times:"1",
+      message: 'bar'
+    },{
+      word:"age",
+      lasttime:"15",
+      times:"1",
+      message: 'bar'
+    },{
+      word:"age",
+      lasttime:"15",
+      times:"1",
+      message: 'bar'
+    },]
   },
 
   /**

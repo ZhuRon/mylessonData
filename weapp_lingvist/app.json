@@ -1,12 +1,12 @@
 {
-  "pages": ["pages/wordList/wordList",
+  "pages": [
     "pages/control/control",
     "pages/index/index",
     "pages/logs/logs",
     "pages/challenge/challenge",
     "pages/account/account",
-    "pages/grammar/grammar"
-    
+    "pages/grammar/grammar",
+    "pages/wordList/wordList"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,3 +1,8 @@
+.body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
 .center{
     display: flex;
     flex-direction:row;
@@ -7,6 +12,28 @@
     width: 100%;
 }
 .word{
-    border: 1rpx solid black;
+    border-bottom: 1rpx solid black;
+    border-right: 1rpx solid black;
+    height: 100rpx;
+}
+.word_hd{
+    width: 60%;
+}
+.word_bd,.word_ft{
+    width: 20%;
+}
+.word_hd,.word_bd{
+    border-bottom: 1rpx solid black;
+    border-right: 1rpx solid black;
+    text-align: center;
+    line-height: 100rpx;
 
+}
+.word_ft{
+    border-bottom: 1rpx solid black; 
+    text-align: center;
+    line-height: 100rpx;
+}
+.word_font{
+    font-size: 12rpx;
 }
