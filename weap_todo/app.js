@@ -7,6 +7,9 @@ App({
       authDomain: 'wd5804878290fcyhog.wilddog.com'
     }
     wilddog.initializeApp(config);
+    wilddog.auth().signInWeapp(function(err,user){
+      console.log(user);
+    })
     // 数据库 ip: db
     this.ref = wilddog.sync().ref('todo')
   },
