@@ -1,2 +1,96 @@
-<!--pages/account/account.wxml-->
-<text>pages/account/account.wxml</text>
+<view class="body">
+<view class="title_hd center">账户</view>
+<view class="tapNav">
+    <view class="{{tabArr.tabCurrentIndex==0?'active':''}}" data-index="0" bindtap="veHandle">语言课程</view>
+    <view class="{{tabArr.tabCurrentIndex==1?'active':''}}"  data-index="1" bindtap="veHandle">账户</view>
+  </view>
+  <!-- bindchange="swiperChange" -->
+  <swiper id="swiper" indicator-dots="{{indicatorDots}}"
+    interval="{{interval}}" duration="{{duration}}" current="{{current}}">
+    <block>
+       <!-- wx:for="{{imgUrls}}" -->
+      <swiper-item id="swiper-item">
+        <view class="title_bd">我的课程</view>
+        <view class="weui-cell weui-cell_3">
+            <view class="weui-cell__hd circle" style="position: relative;margin-right: 10px;">
+                <image src="../../images/england.png" style="width: 80rpx;height:80rpx;"/>
+            </view>
+            <view class="weui-cell__bd align-center-vertical ">
+                <text>英语</text>
+                <text style="font-size: 13px;color: #888888;">用中文简体</text>
+                <view class="weui-icon-success"></view>
+            </view>
+        </view>
+        <view class="title_bd"> 进阶设定</view>
+        <navigator class="weui-cell weui-cell_access">
+            <view class="weui-cell__bd">
+              <text style="vertical-align: middle">添加课程</text>
+            </view>
+            <view class="weui-cell__ft"></view>
+          </navigator>
+          <view class="tapNas">
+          <view class="">音效   已开</view>
+          <view class="switch_color">
+              <switch color="#000" checked bindchange="switch1Change"/>
+          </view>
+        </view>
+          <view class="tapNas">
+          <view class="">开启语音输入功能</view>
+          <view class="switch_color">
+              <switch color="#000" checked bindchange="switch1Change"/>
+          </view>
+        </view>
+        <view class="tapNas">
+            <view class="">背景主题：青花瓷</view>
+            <view class="switch_color">
+                <switch color="#000" checked bindchange="switch1Change"/>
+            </view>
+          </view>
+      </swiper-item>
+
+      <swiper-item id="swiper-item">
+
+        <view class="two">
+            <view class="message_hd">我的账户信息</view>
+            <view class="section">
+                    <view class="section__title"><image src="../../images/3.1.png" style="width:60rpx;height:44rpx;"/>：{{inputValue}}</view>
+                        <input  bindinput="bindKeyInput" placeholder="姓名"
+                        placeholder-style="input" confirm-type="done"/>
+                </view>
+                <view class="section">
+                        <view class="section__title"><image src="../../images/title.2.png" style="width:60rpx;height:44rpx;"/>：{{inputValue}}</view>
+                            <input  bindinput="bindKeyInput" placeholder="9402223872@qq.cm"
+                            placeholder-style="input"/>
+                    </view>
+                    <!-- <navigator url="#" hover-class="navigator-hover">更改密码</navigator> -->
+                    <navigator class="weui-cell weui-cell_access">
+                      <view class="weui-cell__bd">
+                        <text style="vertical-align: middle">更改密码</text>
+                      </view>
+                      <view class="weui-cell__ft"></view>
+                    </navigator>
+                    <navigator class="weui-cell weui-cell_access">
+                        <view class="weui-cell__bd">
+                          <text style="vertical-align: middle">帮助&常见问题</text>
+                        </view>
+                        <view class="weui-cell__ft"></view>
+                      </navigator>
+                      <navigator class="weui-cell weui-cell_access">
+                          <view class="weui-cell__bd align-center-vertical">
+                            <text style="vertical-align: middle">邀请朋友</text>
+                            <text style="font-size: 25rpx;color: #888888;">喜欢lingvist？那也把lingvist推荐给你的家人和朋友吧!</text>
+                          </view>
+                          <view class="weui-cell__ft"></view>
+                        </navigator>
+                        <view class="weui-footer ft">
+            <view class="weui-footer__text">版本 2.10.1.464</view>
+            <view class="weui-footer__links">
+            <text class="weui-footer__link">服务条款&隐私政策</text>
+            </view> 
+          </view>
+            <button class="btn">登出</button>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

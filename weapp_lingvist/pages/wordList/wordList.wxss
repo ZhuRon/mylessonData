@@ -37,3 +37,8 @@
 .word_font{
     font-size: 12rpx;
 }
+.fixed{
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+}

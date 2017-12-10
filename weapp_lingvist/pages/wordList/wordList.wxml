@@ -1,4 +1,5 @@
 <view class="body">
+<view class="fixed">
 <navigator url="../control/control" class="center">已学单词</navigator>
 <view class="center">总词汇量：1110（0今天）</view>
 <view class="title center word">
@@ -6,10 +7,12 @@
 <view class="word_bd">上次</view>
 <view class="word_ft">已看过</view>
 </view>
-
+</view>
+<scroll-view scroll-y style="height:80vh;padding-top: 200rpx;">
 <view class="center" wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
     <view class="word_hd">{{itemName.word}}</view>
     <view class="word_bd">{{itemName.lasttime}}</view>
     <view class="word_ft">{{itemName.times}}</view>
   </view>
+</scroll-view>
 </view>

@@ -1,1 +1,110 @@
-/* pages/account/account.wxss */
+.body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #efefef;
+}
+.center{
+    text-align: center;
+}
+.title_hd{
+    font-weight: bold;
+}
+/*
+1.横向排列分页标签
+2.每个分页标签各占1/3
+*/
+.tapNav {
+    display: flex;
+    flex-direction: row;
+  }
+  .tapNav view{
+    flex:1;
+    width:200rpx;
+    height:100rpx;
+    text-align: center;
+    line-height: 100rpx;
+    font-family: "微软雅黑";
+    color: #657d7e;
+  }
+  /*选中样式*/
+  .tapNav .active {
+    color:#435865;
+    border-bottom:4rpx solid #ffa867;
+  }
+  #swiper {
+
+    height: 100vh;
+  }
+  .section{
+      display: flex;
+      flex-direction: row;
+      margin-top: 5rpx;
+  
+  }
+.section__title{
+    display: inline-block;
+   
+}
+.message_hd{
+    margin-left: 20rpx;
+    color: #657d7e;
+    font-size: 30rpx;
+}
+
+.weui-cell_access .weui-cell__ft:after {
+    content: " ";
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    border-width: 2px 2px 0 0;
+    border-color: #C8C8CD;
+    border-style: solid;
+    -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    position: relative;
+    top: -2px;
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+    right: 2px;
+}
+.ft{
+    margin-top: 250rpx;
+}
+.align-center-vertical text{
+    display: block;
+}
+.btn{
+    width: 90%;
+    border: 2rpx solid black;
+    border-radius: 20rpx;
+    background-color: #efefef;
+}
+.title_bd{
+    margin: 10rpx;
+    font-size: 28rpx;
+    margin-left: 30rpx;
+}
+.circle{
+    border-radius: 50%;
+  
+    width:80rpx;
+    height:80rpx;
+    overflow: hidden;
+}
+.weui-cell_3{
+    background-color: white;
+    width: 85%;
+    border-radius: 20rpx;
+    margin: auto;
+}
+.tapNas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30rpx;
+  }
+  .switch_color{
+      color: black;
+  }

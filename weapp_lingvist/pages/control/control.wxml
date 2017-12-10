@@ -10,23 +10,33 @@
         <view class="span_box_hd_Explain">英语</view>
         <view class="span_box_bd_Explain">您现在是53级中的第12级。 ></view>
     <view class="box_ft">
+        
         <view class="span_ft left">
             <view class="span_ft_title">复习预定</view>
             <view class="span_ft_Explain">36</view>
         </view>    
-        <view class="span_ft right">
+        <vi-ew class="span_ft right">
             <view class="span_ft_right_title">今日新词</view>
             <view class="span_ft_right_Explain">0</view>
-        </view>  
+        </vi-ew>  
     </view>
 </view>
 <view class="end_box">
     <view class="end_box_hd">每日目标</view>
     <view class="end_box_bd">
-        <view class="end_box_bd_main left"><image src="../../images/1.png"/><text style="font-size:40rpx font-color=#415763">字卡</text><text style="font-size:24rpx">尚未达标</text></view>
+        <view class="end_box_bd_main left" bindtap="powerDrawer" data-statu="open"><image src="../../images/1.png"/><text style="font-size:40rpx font-color=#415763">字卡</text><text style="font-size:24rpx">尚未达标</text></view>
         <view class="end_box_bd_main middle"><image src="../../images/2.png"/><text style="font-size:40rpx color=#415763">生词</text><text style="font-size:24rpx">尚未达标</text></view>
         <view class="end_box_bd_main right"><image src="../../images/3.png"/><text style="font-size:40rpx color=#415763">正确</text><text style="font-size:24rpx">尚未达标</text></view>
     </view>
+    <view animation="{{animationData}}" class="drawer_box" wx:if="{{showModalStatus}}">
+        <view class="btn_ok" bindtap="powerDrawer" data-statu="close">x</view>
+        <view class="drawer_title"><image class="creative1" src="../../images/aactive1.png"></image></view>
+         <view class="drawer_content">
+          <view class="top adjust">      
+            每日目标：完成100张字卡
+          </view>
+        </view>
+      </view>
     <button class="btn">开始学习</button>
 </view>
 </view>

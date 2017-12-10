@@ -1,2 +1,28 @@
-<!--pages/grammar/grammar.wxml-->
-<text>pages/grammar/grammar.wxml</text>
+<view class="title_hd center">语法</view>
+<view class="tapNav">
+    <view class="{{tabArr.tabCurrentIndex==0?'active':''}}" data-index="0" bindtap="veHandle">初级</view>
+    <view class="{{tabArr.tabCurrentIndex==1?'active':''}}"  data-index="1" bindtap="veHandle">中级</view>
+    <view class="{{tabArr.tabCurrentIndex==2?'active':''}}"  data-index="2" bindtap="veHandle">高级</view>
+  </view>
+  <!-- bindchange="swiperChange" -->
+  <swiper id="swiper" indicator-dots="{{indicatorDots}}"
+    interval="{{interval}}" duration="{{duration}}" current="{{current}}">
+    <block>
+       <!-- wx:for="{{imgUrls}}" -->
+      <swiper-item id="swiper-item">
+          <view class="swiper-content" wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
+              <view class="content">{{itemName.content}}</view>
+            </view>
+      </swiper-item>
+      <swiper-item id="swiper-item">
+          <view class="swiper-content" wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
+              <view class="content">{{itemName.content}}</view>
+            </view>
+      </swiper-item>
+      <swiper-item id="swiper-item">
+          <view class="swiper-content" wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
+              <view class="content">{{itemName.content}}</view>
+            </view>
+      </swiper-item>
+    </block>
+  </swiper>
