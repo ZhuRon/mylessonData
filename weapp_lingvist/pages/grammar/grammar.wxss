@@ -1,7 +1,8 @@
-body{
+.body{
     margin: 0;
     padding: 0;
     position: relative;
+    background-color: #efefef;
 }
 .center{
     text-align: center;
@@ -9,6 +10,7 @@ body{
 .title_hd{
     font-weight: bold;
 }
+
 /*
 1.横向排列分页标签
 2.每个分页标签各占1/3
@@ -27,8 +29,8 @@ body{
   }
   /*选中样式*/
   .tapNav .active {
-    color:blue;
-    border-bottom:4rpx solid mediumseagreen;
+    color:#435865;
+    border-bottom:4rpx solid #ffa867;
   }
   #swiper {
     margin-top:40rpx;
@@ -42,6 +44,10 @@ body{
     line-height: 150rpx;
     text-align: left;
     padding-left: 10rpx;
-    border-bottom: 2rpx solid black;
+    border-bottom: 2rpx solid #e7e7e7;
   }
-
+  .fixed{
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+}

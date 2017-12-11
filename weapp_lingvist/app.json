@@ -22,20 +22,26 @@
     "list": [
       {
         "pagePath": "pages/control/control",
-        "iconPath":"./images/3.1.png",
-        "selectIconPath":"./images/3.2.png",
+        "iconPath":"./images/1.1.png",
+        "selectedIconPath":"./images/1.2.png",
         "text": "控制台"
       },
       {
+        "iconPath":"./images/2.1.png",
         "pagePath": "pages/challenge/challenge",
+        "selectedIconPath":"./images/2.2.png",
         "text": "挑战"
       },
       {
         "pagePath": "pages/account/account",
+        "iconPath":"./images/3.1.png",
+        "selectedIconPath":"./images/3.2.png",
         "text": "账户"
       },
       {
         "pagePath": "pages/grammar/grammar",
+        "iconPath":"./images/4.1.png",
+        "selectedIconPath":"./images/4.2.png",
         "text": "语法"
       }
     ]

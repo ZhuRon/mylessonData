@@ -6,9 +6,19 @@ Page({
    */
   data: {
     array: [{
-      content:"ing怎么加?",}, {
         content:"ing怎么加?",},{
-          content:"ing怎么加?",},],
+        content:"复数加s---名词的复数变化（1）",},{
+        content:"复数加es还是ies---名词的复数变化（2）",},{
+        content:"可不可数——名词的复数变化(3)",},{
+        content:"I, you, she, he	人称代词⑴",},{
+        content:"me, you, her, him	人称代词(2)",},{
+        content:"英语日期及序号 英语数字——百、千、万",},{
+        content:"我你他快速对照",},{
+        content:"特殊名词快速对照",},{
+        content:"ing怎么加?",},{
+        content:"ing怎么加?",},{
+        content:"ing怎么加?",},{
+        content:"ing怎么加?",},],
     // imgUrls: [
     //   'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
     //   'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
@@ -33,7 +43,7 @@ Page({
     //每个分页标签都设置了data-index,触摸触发事件获取此数值
     //用此数值替换滑动视图的current
     //用此数值替换分页标签class判断的值
-    console.log(e.target.dataset.index)
+    // console.log(e.target.dataset.index)
     var currentIndex = e.target.dataset.index
     this.setData({
       current:currentIndex,
@@ -44,7 +54,7 @@ Page({
   swiperChange:function(e){
     //获取视图滑块当前的current
     //用此数值替换分页标签的current的值
-    console.log(e.detail.current)
+    // console.log(e.detail.current)
     var swiperCurrent = e.detail.current;
     this.setData({
       'tabArr.tabCurrentIndex':swiperCurrent
@@ -55,7 +65,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-   console.log('onLoad')
+  //  console.log('onLoad')
   },
 
   /**

@@ -1,4 +1,16 @@
 <view class="body">
+        <view animation="{{animationData}}" class="drawer_box" wx:if="{{showModalStatus}}">
+                <view class="btn_ok" bindtap="powerDrawer" data-statu="close">x</view>
+                <view class="drawer_title"><image class="creative1" src="{{src}}"></image></view>
+                 <view class="drawer_content">
+                  <view class="top adjust">      
+                    {{content}}
+                  </view>
+                 </view>
+            </view>
+        
+               
+            <view class="zezhaoc" wx:if="{{one}}" bindtap="powerDrawer" data-statu="close"></view>
 <navigator url="../wordList/wordList" class="title">
     <view class="title_hd">累积单词数：1110</view>
     <view class="title_bd">看清单 ></view>
@@ -24,19 +36,11 @@
 <view class="end_box">
     <view class="end_box_hd">每日目标</view>
     <view class="end_box_bd">
-        <view class="end_box_bd_main left" bindtap="powerDrawer" data-statu="open"><image src="../../images/1.png"/><text style="font-size:40rpx font-color=#415763">字卡</text><text style="font-size:24rpx">尚未达标</text></view>
-        <view class="end_box_bd_main middle"><image src="../../images/2.png"/><text style="font-size:40rpx color=#415763">生词</text><text style="font-size:24rpx">尚未达标</text></view>
-        <view class="end_box_bd_main right"><image src="../../images/3.png"/><text style="font-size:40rpx color=#415763">正确</text><text style="font-size:24rpx">尚未达标</text></view>
+        <view class="end_box_bd_main left" bindtap="powerDrawer" data-statu="open1"><image src="../../images/1.png"/><text style="font-size:40rpx font-color=#415763">字卡</text><text style="font-size:24rpx">尚未达标</text></view>
+        <view class="end_box_bd_main middle" bindtap="powerDrawer" data-statu="open2"><image src="../../images/2.png"/><text style="font-size:40rpx color=#415763">生词</text><text style="font-size:24rpx">尚未达标</text></view>
+        <view class="end_box_bd_main right" bindtap="powerDrawer" data-statu="open3"><image src="../../images/3.png"/><text style="font-size:40rpx color=#415763">正确</text><text style="font-size:24rpx">尚未达标</text></view>
     </view>
-    <view animation="{{animationData}}" class="drawer_box" wx:if="{{showModalStatus}}">
-        <view class="btn_ok" bindtap="powerDrawer" data-statu="close">x</view>
-        <view class="drawer_title"><image class="creative1" src="../../images/aactive1.png"></image></view>
-         <view class="drawer_content">
-          <view class="top adjust">      
-            每日目标：完成100张字卡
-          </view>
-        </view>
-      </view>
+   
     <button class="btn">开始学习</button>
 </view>
 </view>

@@ -1,15 +1,48 @@
 // pages/control/control.js
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    showModalStatus: false
+    one:false,
+    showModalStatus: false,
+    content:"",
+    src:"",
+
   },
   powerDrawer: function (e) { 
-    var currentStatu = e.currentTarget.dataset.statu;  
+    var currentStatu = e.currentTarget.dataset.statu;
+    if(currentStatu=="open1"){
+        this.setData({
+          content:"每日目标：完成100张字卡",
+          src:"../../images/aactive1.png"
+        })
+        currentStatu ="open"
+    }
+    if(currentStatu=="open2"){
+      this.setData({
+        content:"每日目标：增加20个生词",
+        src:"../../images/active2.png"
+      })
+      currentStatu ="open"
+    }
+    if(currentStatu=="open3"){
+      this.setData({
+        content:"每日目标：将复习答对率提升到80%",
+        src:"../../images/active3.png"
+
+      })
+      currentStatu ="open"
+    }
     this.util(currentStatu) 
+    setTimeout(()=>{
+      this.setData({
+        one : true,
+
+      })
+    },150) 
   }, 
   util: function(currentStatu){ 
     /* 动画部分 */ 
@@ -22,6 +55,7 @@ Page({
        
     // 第2步：这个动画实例赋给当前的动画实例  
     this.animation = animation;  
+   
    
     // 第3步：执行第一组动画  
     animation.opacity(0).rotateX(-100).step();  
@@ -44,7 +78,8 @@ Page({
       if (currentStatu == "close") { 
         this.setData( 
           { 
-            showModalStatus: false 
+            showModalStatus: false ,
+            one:false
           } 
         );  
       } 

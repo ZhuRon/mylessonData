@@ -1,35 +1,125 @@
-<!--input.wxml-->
-<view class="section">
-    <input placeholder="这是一个可以自动聚焦的input" auto-focus/>
-</view>
-<view class="section">
-    <input placeholder="这个只有在按钮点击的时候才聚焦" focus="{{focus}}" />
-    <view class="btn-area">
-        <button bindtap="bindButtonTap">使得输入框获取焦点</button>
+<view class="body">
+    <view class="title_hd center">账户</view>
+    <view class="tapNav">
+        <view class="{{tabArr.tabCurrentIndex==0?'active':''}}" data-index="0" bindtap="veHandle">我的挑战</view>
+        <view class="{{tabArr.tabCurrentIndex==1?'active':''}}" data-index="1" bindtap="veHandle">已完成</view>
     </view>
-</view>
-<view class="section">
-    <input  maxlength="10" placeholder="最大输入长度10" />
-</view>
-<view class="section">
-    <view class="section__title">你输入的是：{{inputValue}}</view>
-    <input  bindinput="bindKeyInput" placeholder="输入同步到view中"/>
-</view>
-<view class="section">
-    <input  bindinput="bindReplaceInput" placeholder="连续的两个1会变成2" />
-</view>
-<view class="section">
-    <input password type="number" />
-</view>
-<view class="section">
-    <input password type="text" />
-</view>
-<view class="section">
-    <input type="digit" placeholder="带小数点的数字键盘"/>
-</view>
-<view class="section">
-    <input type="idcard" placeholder="身份证输入键盘" />
-</view>
-<view class="section">
-    <input placeholder-style="color:red" placeholder="占位符字体是红色的" />
+    <!-- bindchange="swiperChange" -->
+    <swiper id="swiper" indicator-dots="{{indicatorDots}}" interval="{{interval}}" duration="{{duration}}" current="{{current}}">
+        <block>
+            <!-- wx:for="{{imgUrls}}" -->
+            <swiper-item id="swiper-item">
+                <view class="tapNas">
+                    <view class="pic-box">
+                        <view class="pic-top">
+                            <image src="../../images/circlr.1.2.png" />
+                        </view>
+                        <view class="pic-explain">所有</view>
+                    </view>
+                    <view class="pic-box">
+                        <view class="pic-top">
+                            <image src="../../images/circle2.1.png" />
+                        </view>
+                        <view class="pic-explain">绘画</view>
+                    </view>
+                    <view class="pic-box">
+                        <view class="pic-top">
+                            <image src="../../images/circle3.1.png" />
+                        </view>
+                        <view class="pic-explain">写作</view>
+                    </view>
+                    <view class="pic-box">
+                        <view class="pic-top">
+                            <image src="../../images/circle4.1.png" />
+                        </view>
+                        <view class="pic-explain">听力</view>
+                    </view>
+                    <view class="pic-box">
+                        <view class="pic-top">
+                            <image src="../../images/circle5.1.png" />
+                        </view>
+                        <view class="pic-explain">阅读</view>
+                    </view>
+                </view>
+
+
+                <navigator class="weui-cell weui-cell_access">
+                    <view class="weui-cell__bd weui-cell__bd_bg">
+                        <view class="weui-cell__bd_center" style="vertical-align: middle">
+                            <text>Basic Listening(1)</text>
+                            <text>请听完音频后选择听到的词组</text>
+                            <text>听力|第一级</text>
+                        </view>
+                    </view>
+                    <view class="weui-cell__ft"></view>
+                </navigator>
+                <navigator class="weui-cell weui-cell_access">
+                        <view class="weui-cell__bd weui-cell__bd_bg">
+                            <view class="weui-cell__bd_center" style="vertical-align: middle">
+                                <text>Basic Listening(1)</text>
+                                <text>请听完音频后选择听到的词组</text>
+                                <text>听力|第一级</text>
+                            </view>
+                        </view>
+                        <view class="weui-cell__ft"></view>
+                    </navigator>
+                    <navigator class="weui-cell weui-cell_access">
+                            <view class="weui-cell__bd weui-cell__bd_bg">
+                                <view class="weui-cell__bd_center" style="vertical-align: middle">
+                                    <text>Basic Listening(1)</text>
+                                    <text>请听完音频后选择听到的词组</text>
+                                    <text>听力|第一级</text>
+                                </view>
+                            </view>
+                            <view class="weui-cell__ft"></view>
+                        </navigator>
+            </swiper-item>
+
+            <swiper-item id="swiper-item">
+
+                <view class="tapNas">
+                    <view class="pic-box">
+                        <view class="pic-top">
+                            <image src="../../images/circlr.1.2.png" />
+                        </view>
+                        <view class="pic-explain">所有</view>
+                    </view>
+                    <view class="pic-box">
+                        <view class="pic-top">
+                            <image src="../../images/circle2.1.png" />
+                        </view>
+                        <view class="pic-explain">绘画</view>
+                    </view>
+                    <view class="pic-box">
+                        <view class="pic-top">
+                            <image src="../../images/circle3.1.png" />
+                        </view>
+                        <view class="pic-explain">写作</view>
+                    </view>
+                    <view class="pic-box">
+                        <view class="pic-top">
+                            <image src="../../images/circle4.1.png" />
+                        </view>
+                        <view class="pic-explain">听力</view>
+                    </view>
+                    <view class="pic-box">
+                        <view class="pic-top">
+                            <image src="../../images/circle5.1.png" />
+                        </view>
+                        <view class="pic-explain">阅读</view>
+                    </view>
+                </view>
+                <navigator class="weui-cell weui-cell_access">
+                        <view class="weui-cell__bd weui-cell__bd_bg">
+                            <view class="weui-cell__bd_center" style="vertical-align: middle">
+                                <text>Basic Listening(1)</text>
+                                <text>请听完音频后选择听到的词组</text>
+                                <text>听力|第一级</text>
+                            </view>
+                        </view>
+                        <view class="weui-cell__ft"></view>
+                    </navigator>
+            </swiper-item>
+        </block>
+    </swiper>
 </view>

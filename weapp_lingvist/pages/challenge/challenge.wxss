@@ -1,0 +1,85 @@
+.body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #efefef;
+}
+.center{
+    text-align: center;
+}
+.title_hd{
+    font-weight: bold;
+}
+.tapNav {
+    display: flex;
+    flex-direction: row;
+  }
+  .tapNav view{
+    flex:1;
+    width:200rpx;
+    height:100rpx;
+    text-align: center;
+    line-height: 100rpx;
+    font-family: "微软雅黑";
+    color: #657d7e;
+  }
+  /*选中样式*/
+  .tapNav .active {
+    color:#435865;
+    border-bottom:4rpx solid #ffa867;
+  }
+  #swiper {
+
+    height: 100vh;
+  }
+  .section{
+      display: flex;
+      flex-direction: row;
+      margin-top: 5rpx;
+  
+  }
+.section__title{
+    display: inline-block;
+   
+}
+.pic-top image{
+    width: 80rpx;
+    height: 80rpx;
+    overflow: hidden;
+}
+.tapNas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30rpx;
+  }
+  .weui-cell_access .weui-cell__ft:after {
+    content: " ";
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    border-width: 2px 2px 0 0;
+    border-color: #C8C8CD;
+    border-style: solid;
+    -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    position: relative;
+    top: -2px;
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+    right: 60rpx;
+}
+  .weui-cell__bd_bg{
+      background-color: #fff;
+      border-radius: 20rpx;
+      width: 100%;
+    
+  }
+  .weui-cell__bd_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 30rpx;
+    margin-left: 20rpx;
+  }
