@@ -13,59 +13,59 @@ Page({
 
       message: 'foo',
     }, {
-      word:"age",
+      word:"anybody",
       lasttime:"15",
-      times:"1",
+      times:"2",
       message: 'bar'
     },
     {
-      word:"age",
+      word:"approach",
+      lasttime:"5",
+      times:"2",
+      message: 'bar'
+    },{
+      word:"article",
+      lasttime:"23",
+      times:"3",
+      message: 'bar'
+    },{
+      word:"attack",
       lasttime:"15",
+      times:"2",
+      message: 'bar'
+    },{
+      word:"bathroom",
+      lasttime:"25",
+      times:"2",
+      message: 'bar'
+    },{
+      word:"before",
+      lasttime:"4",
+      times:"3",
+      message: 'bar'
+    },{
+      word:"between",
+      lasttime:"18",
+      times:"3",
+      message: 'bar'
+    },{
+      word:"book",
+      lasttime:"22",
+      times:"3",
+      message: 'bar'
+    },{
+      word:"both",
+      lasttime:"7",
+      times:"2",
+      message: 'bar'
+    },{
+      word:"bright",
+      lasttime:"3",
       times:"1",
       message: 'bar'
     },{
-      word:"age",
-      lasttime:"15",
-      times:"1",
-      message: 'bar'
-    },{
-      word:"age",
-      lasttime:"15",
-      times:"1",
-      message: 'bar'
-    },{
-      word:"age",
-      lasttime:"15",
-      times:"1",
-      message: 'bar'
-    },{
-      word:"age",
-      lasttime:"15",
-      times:"1",
-      message: 'bar'
-    },{
-      word:"age",
-      lasttime:"15",
-      times:"1",
-      message: 'bar'
-    },{
-      word:"age",
-      lasttime:"15",
-      times:"1",
-      message: 'bar'
-    },{
-      word:"age",
-      lasttime:"15",
-      times:"1",
-      message: 'bar'
-    },{
-      word:"age",
-      lasttime:"15",
-      times:"1",
-      message: 'bar'
-    },{
-      word:"age",
-      lasttime:"15",
+      word:"business",
+      lasttime:"12",
       times:"1",
       message: 'bar'
     },]

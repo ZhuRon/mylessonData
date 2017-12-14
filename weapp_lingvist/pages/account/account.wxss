@@ -108,3 +108,22 @@
   .switch_color{
       color: black;
   }
+  .weui-cell__ft_in-access:after{
+    height:10rpx;
+    width:20rpx;
+    transform:rotate(135deg);
+    top:-50rpx;
+    right:15rpx;
+    border-color: #ffffff;
+}
+.weui-cell__ft_in-access:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 50rpx;
+    height: 50rpx;
+    background-color: #338499;
+    border-radius: 50%;
+    top:-72rpx;
+    left: 488rpx;
+}

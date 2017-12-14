@@ -19,6 +19,7 @@
                 <text>英语</text>
                 <text style="font-size: 13px;color: #888888;">用中文简体</text>
                 <view class="weui-icon-success"></view>
+                <view class="weui-cell__ft_in-access:after .weui-cell__ft_in-access:before"></view>
             </view>
         </view>
         <view class="title_bd"> 进阶设定</view>
