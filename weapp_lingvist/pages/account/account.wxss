@@ -112,7 +112,7 @@
     height:10rpx;
     width:20rpx;
     transform:rotate(135deg);
-    top:-50rpx;
+    top:-50rpx; 
     right:15rpx;
     border-color: #ffffff;
 }
