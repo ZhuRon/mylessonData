@@ -117,7 +117,7 @@
     border-color: #ffffff;
 }
 .weui-cell__ft_in-access:before{
-    content: "";
+    content: ""; 
     display: block;
     position: absolute;
     width: 50rpx;
