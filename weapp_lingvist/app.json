@@ -24,25 +24,25 @@
         "pagePath": "pages/control/control",
         "iconPath":"./images/1.1.png",
         "selectedIconPath":"./images/1.2.png",
-        "text": "控制台"
+        "text": "有趣的灵魂"
       },
       {
         "iconPath":"./images/2.1.png",
         "pagePath": "pages/challenge/challenge",
         "selectedIconPath":"./images/2.2.png",
-        "text": "挑战"
+        "text": "提升的自我"
       },
       {
         "pagePath": "pages/account/account",
         "iconPath":"./images/3.1.png",
         "selectedIconPath":"./images/3.2.png",
-        "text": "账户"
+        "text": "段子的选择"
       },
       {
         "pagePath": "pages/grammar/grammar",
         "iconPath":"./images/4.1.png",
         "selectedIconPath":"./images/4.2.png",
-        "text": "语法"
+        "text": "随便逛逛"
       }
     ]
   }
