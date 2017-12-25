@@ -34,7 +34,7 @@ Page({
     switch2Change: function (e){
       console.log('switch2 发生 change 事件，携带值为', e.detail.value)
     },   
-    veHandle:function(e){   
+    veHandle:function(e){     
       //每个分页标签都设置了data-index,触摸触发事件获取此数值  
       //用此数值替换滑动视图的current  
       //用此数值替换分页标签class判断的值
