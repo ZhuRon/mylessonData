@@ -13,3 +13,11 @@ pc时代可以忍受，移动时代不能忍受
 https://m.taobao.com/#index 前端url 标记首页
 https://m.taobao.com/#home  标记小家
 html5 historyAPI 不会跳转页面，当你点击之后会触发一个事件，然后用ajax动态获取数据
+前端url，不再是刷新式跳转，而是切换一张小卡片，就像整个页面都没有动。
+这就叫做单页应用 SinglePageApplication
+如何动态更新界面？
+前端url规则：
+    启动，交给ajax
+    vue？ url => page => 组件
+
+
